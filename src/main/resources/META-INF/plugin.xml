@@ -3,7 +3,9 @@
     <name>ExamplePlugin</name>
     <vendor email="email@outlook.com" url="https://github.com/antoni-rokitnicki">me</vendor>
 
-    <change-notes>            Some basic mapper file navigation for example</change-notes>
+    <change-notes><![CDATA[
+            Some basic mapper file navigation for example
+    ]]></change-notes>
     <description><![CDATA[
             Some basic mapper file navigation for example
     ]]></description>

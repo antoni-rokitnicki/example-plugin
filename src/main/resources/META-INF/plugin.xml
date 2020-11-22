@@ -1,12 +1,12 @@
 <idea-plugin>
     <id>org.muchu.mybatis-support</id>
-    <name>mybatis support</name>
-    <vendor email="dark_zeratul@outlook.com" url="https://github.com/zhaoqin102/mybatis-support">heber</vendor>
+    <name>ExamplePlugin</name>
+    <vendor email="email@outlook.com" url="https://github.com/antoni-rokitnicki">me</vendor>
 
+    <change-notes>            Some basic mapper file navigation for example</change-notes>
     <description><![CDATA[
-            Some basic mapper file navigation for mybatis
+            Some basic mapper file navigation for example
     ]]></description>
-
     <depends>com.intellij.java</depends>
 
     <extensions defaultExtensionNs="com.intellij">
@@ -42,5 +42,13 @@
     </extensions>
 
     <actions>
+        <action id="exampleAction" class="org.example.ExampleAction" text="ExampleAction">
+            <add-to-group group-id="RunTestGroup" anchor="first"/>
+        </action>
     </actions>
+
+    <applicationListeners>
+        <listener class="org.example.MyProjectManagerListener"
+                  topic="org.example.MyProjectManagerListener"/>
+    </applicationListeners>
 </idea-plugin>

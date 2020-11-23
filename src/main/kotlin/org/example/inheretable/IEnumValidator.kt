@@ -4,7 +4,8 @@ interface IEnumValidator {
 
     fun onEnumField(name: String, enumek: Object, onErrorAction: ((o: Object) -> Unit)?) : String
 
-    fun onEnumField(name: String, enumek: Object) : String {
+    //TODO: simpler methods for children
+    /*fun onEnumField(name: String, enumek: Object) : String {
         return onEnumField(name, enumek, null)
-    }
+    }*/
 }

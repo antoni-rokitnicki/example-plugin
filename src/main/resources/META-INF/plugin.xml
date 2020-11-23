@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>org.muchu.mybatis-support</id>
+    <id>org.example.plugin</id>
     <name>ExamplePlugin</name>
     <vendor email="email@outlook.com" url="https://github.com/antoni-rokitnicki">me</vendor>
 
